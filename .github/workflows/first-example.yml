@@ -1,0 +1,12 @@
+name: first-workflow
+on: 
+    push
+
+jobs:
+    first-job:
+        runs-on: ubutu-lastest
+        steps:
+        - name: welcome message
+          run: echo "hi Manikanta"
+        - name: pwd
+          run: pwd
