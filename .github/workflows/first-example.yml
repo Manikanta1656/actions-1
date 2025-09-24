@@ -4,7 +4,7 @@ on:
 
 jobs:
     first-job:
-        runs-on: ubutu-lastest
+        runs-on: ubuntu-lastest
         steps:
         - name: welcome message
           run: echo "hi Manikanta"
